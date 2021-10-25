@@ -1,0 +1,4 @@
+DELETE emp,pr,st from employe as emp
+INNER JOIN profile as pr ON pr.student_id=emp.id
+INNER JOIN students as st ON st.id=emp.id
+WHERE st.id=4

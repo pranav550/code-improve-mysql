@@ -1,0 +1,3 @@
+SELECT * FROM students WHERE email="test@gmail.com" AND gender="Female"
+
+SELECT * FROM students WHERE address="Agra" OR gender="female"

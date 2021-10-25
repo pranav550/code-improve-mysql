@@ -1,0 +1,9 @@
+CREATE VIEW subjectList AS
+SELECT students.name as student_name ,subject.subject_name as subject_name  FROM `students` LEFT JOIN subject ON subject.subject_id=students.id; 
+
+
+DROP VIEW Sub
+
+
+CREATE VIEW totalSub AS
+SELECT COUNT(subject.student_id) as total, students.* from students LEFT JOIN subject ON students.id=subject.subject_id GROUP BY subject.student_id

@@ -1,0 +1,4 @@
+ALTER TABLE `students` ADD `country` VARCHAR(20) NOT NULL AFTER `city`;
+
+ALTER TABLE `students` DROP `city`;
+

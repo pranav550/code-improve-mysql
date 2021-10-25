@@ -1,0 +1,3 @@
+self join is used to remove duplicate entry
+
+DELETE std1 from students as std1 JOIN students as std2 WHERE std1.id>std2.id AND std1.phone_no=std2.phone_no 

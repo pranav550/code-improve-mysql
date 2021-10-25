@@ -1,0 +1,2 @@
+UPDATE employe employe INNER JOIN students ON students.id=employe.id
+SET employe.phone=students.phone_no

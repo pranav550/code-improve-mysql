@@ -1,0 +1,5 @@
+SELECT * FROM `students` INNER JOIN subject ON subject.student_id=students.id
+
+SELECT * FROM students LEFT JOIN subject ON subject.subject_id=students.id
+
+SELECT * FROM students RIGHT JOIN subject ON subject.subject_id=students.id

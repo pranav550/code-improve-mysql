@@ -1,0 +1,9 @@
+SELECT * FROM `students` WHERE email LIKE '%gmail%'
+
+SELECT * FROM `students` WHERE email NOT LIKE '%gmail%'
+
+SELECT * FROM `students` WHERE name LIKE '%test%'
+
+SELECT * FROM `students` WHERE name LIKE '%test_%'
+
+SELECT * FROM `students` WHERE name LIKE '%_test_%'

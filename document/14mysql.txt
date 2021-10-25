@@ -1,0 +1,11 @@
+SELECT subject_name FROM `subject` UNION SELECT name FROM students
+
+SELECT count(subject.student_id) as Total FROM `students` LEFT JOIN subject ON subject.student_id=students.id GROUP BY students.id
+
+
+SELECT count(subject.student_id) as Total FROM `students` LEFT JOIN subject ON subject.student_id=students.id GROUP BY subject.student_id
+
+SELECT count(subject.student_id) as Total, students.* FROM `students` LEFT JOIN subject ON subject.student_id=students.id GROUP BY subject.student_id ORDER BY subject.student_id DESC
+
+
+SELECT count(subject.student_id) as Total, students.* FROM `students` LEFT JOIN subject ON subject.student_id=students.id GROUP BY subject.student_id HAVING Total>2 ORDER BY subject.student_id DESC

@@ -1,0 +1,11 @@
+CREATE DATABASE Afirst
+
+DROP DATABASE afirst
+
+CREATE TABLE ABC(
+id int,
+firstname varchar(50),    
+lastname varchar(50)
+)
+
+DROP TABLE ABC

@@ -1,0 +1,12 @@
+insert INTO students(name, email, gender, phone_no,admission_no) VALUES("test5", "test5@gmail.com","Male","9090909095", 10005)
+
+
+insert INTO students(name, email, gender, phone_no,admission_no) 
+VALUES("test5", "test5@gmail.com","Male","9090909095", 10005),
+("test5", "test5@gmail.com","Male","9090909095", 10005)
+("test5", "test5@gmail.com","Male","9090909095", 10005)
+("test5", "test5@gmail.com","Male","9090909095", 10005)
+
+OR
+
+INSERT INTO students set name="test6", email="test6@gmail.com", gender="Male", phone_no="9090909096", admission_no="10007"

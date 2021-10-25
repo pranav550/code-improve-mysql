@@ -1,0 +1,7 @@
+SELECT CONCAT(name,' ',email) as data FROM students
+
+SELECT GROUP_CONCAT(name) as data FROM students
+
+SELECT * FROM `students` WHERE FIND_IN_SET('12',block)
+
+SELECT DATE_FORMAT(created_at,"%d-%m-%Y") from students

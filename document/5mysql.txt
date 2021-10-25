@@ -1,0 +1,12 @@
+SELECT* from students
+
+SELECT name, email from students
+
+SELECT name as fullname, email, phone_no from students
+
+SELECT DISTINCT gender from students
+
+SELECT count(*) as total from students
+
+SELECT count(DISTINCT address) as total from students
+

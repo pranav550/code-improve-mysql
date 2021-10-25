@@ -1,0 +1,5 @@
+INSERT INTO employe (name, email)
+SELECT students.name, profile.image from students INNER JOIN profile ON profile.student_id=students.id
+
+
+SET GLOBAL sql_mode=''

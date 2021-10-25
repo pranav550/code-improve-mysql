@@ -1,0 +1,1 @@
+SELECT emp1.*,emp2.name from employe as emp1 JOIN employe as emp2 ON emp1.id=emp2.ref_id

@@ -1,0 +1,1 @@
+SELECT *,(SELECT subject_name FROM subject WHERE subject_name="computer") FROM students

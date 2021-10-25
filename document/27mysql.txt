@@ -1,0 +1,10 @@
+SELECT IFNULL(phone1,'NA') as phone1 FROM `students`
+
+SELECT CAST(created_at as DATE) FROM `students`
+
+
+SELECT CAST(fees AS UNSIGNED) FROM `students`
+
+
+signed as -ve and +ve value
+unsigned as +ve and -ve value

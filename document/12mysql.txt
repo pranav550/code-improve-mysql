@@ -1,0 +1,4 @@
+Forign key relatio key b/w two table
+1)Restrict (given error when delete)
+2)Cascade 
+3)NotNull

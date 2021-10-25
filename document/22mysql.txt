@@ -1,0 +1,4 @@
+SELECT COUNT(CASE WHEN gender='MALE' THEN gender END) as males,
+COUNT(CASE WHEN gender='FEMALE' THEN gender END) as females from students
+
+SELECT COUNT(DISTINCT(CASE WHEN gender='MALE' THEN gender END)) as males, COUNT(DISTINCT(CASE WHEN gender='FEMALE' THEN gender END)) as females from students HAVING males IS NOT NULL

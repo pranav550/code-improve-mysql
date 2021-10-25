@@ -1,0 +1,12 @@
+aggregate function :-
+max, min, count, avg, sum
+
+SELECT COUNT(*) FROM `students`
+
+SELECT max(fees) FROM `students`
+
+SELECT MIN(fees) FROM `students`
+
+SELECT AVG(fees) FROM `students`
+
+SELECT SUM(fees) FROM `students`

@@ -1,0 +1,16 @@
+SELECT details->'$[0].name' FROM `students`
+
+SELECT JSON_EXTRACT(details,'$[0]') FROM `students`
+
+SELECT JSON_UNQUOTE(JSON_EXTRACT(details,'$[0].name')) FROM `students`
+
+SELECT JSON_SEARCH(details,'all','ramesh') FROM `students`
+
+JSON_TYPE
+JSON_MERGE
+JSON_ARRAY
+JSON_OBJECT
+JSON_SET
+JSON_REPLACE
+JSON_REMOVE
+

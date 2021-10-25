@@ -1,0 +1,2 @@
+SELECT (CASE WHEN gender='MALE' THEN 'M' WHEN gender='FEMALE' THEN 'F' ELSE 'NA' END) as genders, students.* from students
+

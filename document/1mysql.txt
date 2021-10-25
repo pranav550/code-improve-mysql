@@ -1,0 +1,22 @@
+database are two type:-
+1)Realtional
+2)non relational
+
+1)Realtional:-  Oracle, Sql Server, Mysql
+2)Non Realtional:- MongoDB
+Cassandra
+ElasticSearch
+Amazon DynamoDB
+HBase 
+
+https://www.analyticsvidhya.com/blog/2020/09/different-nosql-databases-every-data-scientist-must-know/
+
+
+Mysql is relational database
+
+
+In database we create 
+1)Table
+2)Function
+3)View
+4)Trigger 

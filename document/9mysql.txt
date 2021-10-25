@@ -1,0 +1,10 @@
+SELECT * FROM `students` WHERE id BETWEEN 1 and 4
+
+SELECT * FROM `students` WHERE phone1 BETWEEN 0 and 100
+
+SELECT * FROM `students` WHERE id IN (1,2,3)
+
+SELECT * FROM `students` WHERE name IN ('test','test1','test2')
+
+LIMIT(n-1,number)
+SELECT * FROM `students` LIMIT 0,3
